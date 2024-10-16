@@ -1,0 +1,34 @@
+header {
+            padding: 30px 16px;
+            background: navy;
+            color: #f1f1f1;
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Chilanka', cursive;
+            font-family: 'Playfair Display', serif;
+
+
+        }
+#backButton{
+    position: absolute;
+            left: 0;
+            width: 70px;
+            height: 70px;
+            font-size: 16px;
+}
+form {
+    text-align: center;
+}
+
+
+
+        
+        body{
+            background: powderblue;
+        }

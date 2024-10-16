@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Classmates</title> 
+       <link href="style2.css" rel="stylesheet" type="text/CSS">
+      <script>
+         </script>
+   </head>
+    <body>
+        <header>
+        <h1>Classmates</h1>
+        
+        <button id='backButton' onclick="window.location.href='settings.html'">Back</button>
+    </header>
+        <form method="post" action="classmateInfo.php" autocomplete="on">
+            <h2>Enter the info below to find students information from your classes.</h2>
+         	<p>
+            	<label>Full Name:
+               		<input type = "text" name="fullname" id="fullname" autofocus placeholder="Sameer Al-Khateeb" required  /> 
+                  Please enter your first name and last name.
+            	</label>
+         	</p>
+            <p>
+				<label for = "txtList">Pick Subject:
+            		<input type = "text" id="txtList" name="txtList" placeholder = "Select" list = "subjects" />
+            			<datalist id = "subjects">
+               				<option value = "Math">
+               				<option value = "Science">
+               				<option value = "Arts">
+                            <option value="Language">
+                            <option value="History">
+            			</datalist>
+        		</label>
+        	</p>
+            <p>
+            	<label>Professor Name:
+               		<input type = "text" name="teacherName" id="teacherName" autofocus placeholder="Dr. Al-Khateeb" required  /> 
+                  Please enter your professor's name.
+            	</label>
+         	</p>
+            <p>
+            	<label>Class CRN:
+               		<input type = "text" name="CRN" id="CRN" autofocus placeholder="CSC 551" required  /> 
+                  Please enter your class CRN.
+            	</label>
+         	</p>
+            <p>
+            	<label>Enter your graduation year:
+               		<input id ="gradYear" name="gradYear" type = "number" 
+                  			min = "2023"
+                  			max = "2026"
+                  			value = "0" />
+            	</label> (Must be between 2023 and 2026)
+         	</p>
+            <p>
+            	<label>Email:
+               		<input id="email" name="email" type = "email" placeholder = "email@creighton.edu" 
+                  required multiple/> Please enter your school email address (must end in @creighton.edu).
+            	</label>
+         	</p>
+            <p>
+            	<input type = "submit" value = "Submit"/>
+            	<input type = "reset" value = "Clear" />
+         	</p> 
+            
+            
+		
+			
+             
+
+      	</form>
+        
+    
+    
+    </body>
+</html>

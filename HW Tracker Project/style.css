@@ -1,0 +1,54 @@
+header {
+            padding: 30px 16px;
+            background: navy;
+            color: #f1f1f1;
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Chilanka', cursive;
+            font-family: 'Playfair Display', serif;
+
+
+        }
+#backButton{
+    position: absolute;
+            left: 0;
+            width: 70px;
+            height: 70px;
+            font-size: 16px;
+}
+
+#classmateButton{
+    width:120px;
+    height:120px;
+    margin-left: 550px;
+    margin-top: 25px;
+    
+}
+
+
+#aboutButton{
+     width:120px;
+    height:120px;
+    margin-left: 550px;
+    margin-top:25px;
+    
+}
+
+#adminButton{
+     width:120px;
+    height:120px;
+    margin-left: 550px;
+    margin-top:25px;
+    
+}
+
+        
+        body{
+            background: powderblue;
+        }

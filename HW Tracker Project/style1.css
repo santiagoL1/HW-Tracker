@@ -1,0 +1,81 @@
+header {
+            padding: 30px 16px;
+            background: navy;
+            color: #f1f1f1;
+            position: sticky;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Chilanka', cursive;
+            font-family: 'Playfair Display', serif;
+
+
+        }
+
+        #addButton {
+            position: absolute;
+            right: 0;
+            width: 70px;
+            height: 70px;
+            font-size: 60px;
+            
+            
+
+        }
+
+        #settingsButton {
+            position: absolute;
+            left: 0;
+            width: 70px;
+            height: 70px;
+            font-size: 16px;
+
+
+        }
+        
+
+        table {
+            align-content: right;
+            width: 70%;
+            
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 600px;
+
+        }
+
+        th,
+        td {
+            overflow: visible;
+            width: 100px;
+            font-family: 'Chilanka', cursive;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
+
+        }
+        
+        input {
+            width: 185px;
+            float: right;
+        }
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Chilanka', cursive;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
+        }
+        body{
+            background: powderblue;
+        }
+#clearButton{
+    
+}

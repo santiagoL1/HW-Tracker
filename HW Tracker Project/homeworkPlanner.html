@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Homework Tracker -->
+<!--by Santiago Lizarraga and Grey Lawson -->
+
+<html>
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+   
+    <link href="style1.css" rel="stylesheet" type="text/CSS">
+    
+    <meta charset="utf-8">
+    <script src="homeworkTracking.js"></script>
+    
+    <title> Creighton Homework Tracker</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Creighton Homework Tracker</h1>
+        <button id='addButton' onclick="addAssignment()">&#43;</button>
+        <button id='settingsButton' style='float:left;' onclick="window.location.href='settings.html'">Settings</button>
+        
+        
+    </header>
+    <form method="post" action="assignments.php" autocomplete="on">
+    <h2 id="greetingHeader"></h2>
+    <table id='tableHeader'>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Assignment</th>
+                <th>Due Date</th>
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+    </form>
+    <br>
+    <button onclick="clearAssignments()" id='clearButton'>Clear Last Assignment</button>
+    <input type = "submit" value = "Submit"/>
+
+
+
+</body></html>
